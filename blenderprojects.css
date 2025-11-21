@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(to right, rgb(148, 55, 198), rgb(114, 19, 183), purple);
+
+   
+}
+
+header div
+{
+display: flex;
+justify-content: center;
+
+}
+
+#pictures
+{
+display: flex;
+margin-top: 250px;
+justify-content: center;
+flex-direction: column;
+}
+
+#pictures div
+{
+margin-top: -500px;
+}
+
+
+
+header h1
+{ 
+    font-size: 4em;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 5px 5px 8px black;
+    font-weight: bolder;
+}
+
+main img
+{
+scale: 0.5;
+border: 10px orange dashed;
+border-radius: 40px;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: indigo; 
+    padding: 15px 40px;       
+    border-radius: 15px;     
+}
+
+/* Links inside navbar */
+#navbar a {
+    text-decoration: none;
+}
+
+/* Buttons inside navbar */
+#navbar button {
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: orange;
+    margin: 0 25px;
+    transition: scale 0.35s;
+    border: 3px solid orangered;
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+
+#navbar button:hover {
+    position: relative;
+    top: -5px;
+    scale: 1.1;
+    opacity: 0.75;
+    box-shadow: 5px 5px 10px black
+    
+}
